@@ -1,0 +1,110 @@
+{
+  "manifest_version": 2,
+  "name": "crouton-wm",
+  "description": "A tiling window manager for Crouton",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["build/main.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "management"
+  ],
+
+  "commands": {
+    "switch-layout": {
+      "suggested_key": {
+        "default": "Alt+Space"
+      },
+      "description": "Switch the window manager layout (left-stack, right-stack, or monocle)"
+    },
+    "open-terminal": {
+      "suggested_key": {
+        "default": "Alt+J"
+      },
+      "description": "Open crosh in a new window"
+    },
+    "make-master": {
+      "suggested_key": {
+        "default": "Alt+L"
+      },
+      "description": "Make the current window master"
+    },
+    "close-window": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "Close the current window"
+    },
+    "open-chrome": {
+      "description": "Open a Chrome window"
+    },
+    "rotate-window": {
+      "description": "Like alt-tab behaviour but in the right order"
+    },
+    "desktop-1": {
+      "description": "Switch to desktop 1"
+    },
+    "desktop-2": {
+      "description": "Switch to desktop 2"
+    },
+    "desktop-3": {
+      "description": "Switch to desktop 3"
+    },
+    "desktop-4": {
+      "description": "Switch to desktop 4"
+    },
+    "desktop-5": {
+      "description": "Switch to desktop 5"
+    },
+    "desktop-6": {
+      "description": "Switch to desktop 6"
+    },
+    "desktop-7": {
+      "description": "Switch to desktop 7"
+    },
+    "desktop-8": {
+      "description": "Switch to desktop 8"
+    },
+    "desktop-9": {
+      "description": "Switch to desktop 9"
+    },
+    "desktop-0": {
+      "description": "Switch to desktop 0"
+    },
+    "send-1": {
+      "description": "Send to desktop 1"
+    },
+    "send-2": {
+      "description": "Send to desktop 2"
+    },
+    "send-3": {
+      "description": "Send to desktop 3"
+    },
+    "send-4": {
+      "description": "Send to desktop 4"
+    },
+    "send-5": {
+      "description": "Send to desktop 5"
+    },
+    "send-6": {
+      "description": "Send to desktop 6"
+    },
+    "send-7": {
+      "description": "Send to desktop 7"
+    },
+    "send-8": {
+      "description": "Send to desktop 8"
+    },
+    "send-9": {
+      "description": "Send to desktop 9"
+    },
+    "send-0": {
+      "description": "Send to desktop 0"
+    }
+  }
+}
